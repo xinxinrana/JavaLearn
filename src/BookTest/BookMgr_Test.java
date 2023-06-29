@@ -3,8 +3,6 @@ package BookTest;
 import Book.BookMgr;
 import Book.AbstractionBook;
 
-import java.util.AbstractList;
-
 public class BookMgr_Test {
     public static void main(String[] args) {
         Test();

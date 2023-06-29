@@ -1,11 +1,9 @@
 package Book;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
-import Book.AbstractionBook;
 
 public class BookMgr {
-    ArrayList<AbstractionBook> books = new ArrayList<AbstractionBook>();
+    ArrayList<AbstractionBook> books = new ArrayList<>();
 
     public boolean add(AbstractionBook aBook){
         if(have(aBook)){

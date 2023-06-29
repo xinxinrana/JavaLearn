@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 
 public class PageFlow {
 
-    BookMgr bookMgr = null;
+    BookMgr bookMgr;
 
     public PageFlow(){
         //加载文件
@@ -23,6 +23,7 @@ public class PageFlow {
             //显示主页
 
             //获取输入
+            break;
 
             //跳转子页面
                 //获取输入
@@ -50,12 +51,13 @@ public class PageFlow {
     void keyPress(){
         int data = Input.getInt();
 
-        switch (data){
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            default:
+        switch (data) {
+            case 1 ->{
+
+            }
+            default -> {
+
+            }
         }
     }
 }

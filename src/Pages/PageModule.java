@@ -11,14 +11,6 @@ public class PageModule {
 
 
     static String repeat(final String str, final int n) {
-        final int len = (str == null) ? 0 : str.length();
-        if (len < 1 || n < 1) {
-            return "";
-        }
-        final StringBuilder sb = new StringBuilder(len * n);
-        for (int i = 0; i < n; i++) {
-            sb.append(str);
-        }
-        return sb.toString();
+        return str.repeat(n);
     }
 }
