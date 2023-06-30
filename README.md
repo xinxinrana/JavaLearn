@@ -15,7 +15,7 @@
 
 退出系统：待设计（可能需要询问保存）
 
-![https://github.com/xinxinrana/JavaLearn.git](README_File\HomePage.png "首页示例")
+![https://github.com/xinxinrana/JavaLearn.git](https://github.com/xinxinrana/JavaLearn/blob/main/README_File/HomePage.png "首页示例")
 
 ## 后续可扩展内容：
 1. 设计一种文件格式存储数据
