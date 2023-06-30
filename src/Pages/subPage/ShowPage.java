@@ -1,9 +1,10 @@
-package Pages;
+package Pages.subPage;
 
 import Book.AbstractionBook;
 import Book.BookMgr;
+import Pages.PageModule;
 
-public class ShowPage implements Page{
+public class ShowPage implements Page {
     private BookMgr mgr;
 
     public ShowPage(BookMgr aMgr){

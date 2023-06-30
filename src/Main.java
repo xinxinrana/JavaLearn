@@ -1,9 +1,8 @@
-import Pages.HomePage;
+import Pages.PageFlow;
 
 public class Main {
     public static void main(String[] args) {
-        HomePage page = new HomePage();
-        page.show();
-
+        PageFlow page = new PageFlow();
+        page.start();
     }
 }

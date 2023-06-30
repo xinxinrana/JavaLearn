@@ -1,4 +1,6 @@
-package Pages;
+package Pages.subPage;
+
+import Pages.PageModule;
 
 public class HomePage implements Page {
     @Override
